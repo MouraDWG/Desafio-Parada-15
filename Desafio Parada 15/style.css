@@ -1,0 +1,79 @@
+body{
+  background-image: url(/img/backdj.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main{
+  background-color: white;
+  margin: auto;
+  width: 600px;
+}
+.main div{
+  padding: 15px;
+}
+
+.nav{
+    border-top: 9px solid #2924BF;
+    padding: 0px;
+    margin: 0px;
+    height: 37px;
+}
+
+.nav ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav li{
+  float: left;
+}
+
+.nav a{
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav a:hover:not(.active){
+  background-color: #E183EB;
+  color: white;
+  transition: 0.4s;
+}
+
+.active{
+  background-color: #2924BF;
+  color: white;
+}
+.footer{
+  background-color: #2924BF;
+  color: white;
+}
+
+@media screen and (max-width: 1440px){
+  .main{
+    width: 80%;
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 760px){
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: none;
+  }
+
+  .main{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .content{
+    display: block;
+  }
+}
